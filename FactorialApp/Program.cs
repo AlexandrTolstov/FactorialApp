@@ -18,7 +18,7 @@ namespace FactorialApp
             if (number < 1)
                 throw new ArgumentException("число не должно быть меньше 1");
             int result = 1;
-            for (int i = 0; i < number; i++)
+            for (int i = 1; i <= number; i++)
             {
                 result *= i;
             }
